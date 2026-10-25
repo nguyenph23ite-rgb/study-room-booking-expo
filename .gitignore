@@ -39,3 +39,13 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Local test artifacts and backups
+*.apk
+*.bak
+*.before-dual-mode
+
+# Environment secrets
+.env
+.env.*
+!.env.example
